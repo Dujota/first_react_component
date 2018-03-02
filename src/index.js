@@ -4,8 +4,13 @@ import ReactDOM from 'react-dom';
 import Hello from './App.js';
 // import registerServiceWorker from './registerServiceWorker';
 
+var person = {
+  personName: "Nick"
+  personAge: 24
+}
+
 ReactDOM.render(
-  <Hello />, 
+  <Hello name={"Nick"} age={24} />,
   document.getElementById('root')
 );
 // registerServiceWorker();
